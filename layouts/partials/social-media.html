@@ -1,0 +1,11 @@
+{{ $iconPath := "/icons/" }}
+
+
+<ul class="socialContainer">
+  {{ range .Site.Data.socialMedia }}
+  <a href="{{ .url }}" target="_blank" rel="noopener" noreferrer class="socialIcon">
+    {{ $svg := readFile (printf "static/icons/%s.svg" .icon) }}
+    {{ $svg | safeHTML }}
+  </a>
+  {{ end }}
+</ul>

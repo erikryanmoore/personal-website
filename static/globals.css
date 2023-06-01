@@ -1,0 +1,55 @@
+:root {
+  /* Colors */
+  --black: #333333;
+  --white: #ffffff;
+
+  --primary-color: #014f86;
+  --primary-color-text: var(--white);
+  --primary-color-hover: #187bcd;
+
+  --secondary-color: #019395;
+  --secondary-color-text: var(--black);
+  --secondary-color-hover: #75e6eb;
+
+  --accent-color: #e30b5c;
+  --accent-color-text: var(--white);
+  --accent-color-hover: #e34573;
+
+  --success-color: #208b3a;
+  --success-color-hover: #1a7431;
+
+  --error-color: #bd1f36;
+  --error-color-hover: #b21e35;
+
+  --warning-color: #ffa200;
+  --warning-color-hover: #ff9500;
+
+  --background-color: var(--white);
+  --background-color-text: var(--black);
+
+  /* Font */
+  --font-family: "Titillium Web", sans-serif;
+  --font-family-mono: Monaco, monospace;
+  --font-size: 16px;
+
+  --h1-font-size: clamp(32px, 10vw, 48px);
+  --h2-font-size: clamp(24px, 9vw, 32px);
+  --h3-font-size: clamp(20px, 8vw, 24px);
+  --h4-font-size: clamp(18px, 7vw, 20px);
+  --h5-font-size: clamp(16px, 6vw, 18px);
+  --h6-font-size: 16px;
+  --p-font-size: clamp(16px, 5vw, 18px);
+
+  /* Spacing */
+  --spacing-ti: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xx: 48px;
+  --spacing-gi: 64px;
+
+  /* Sizing */
+  --content-max-width: 1080px;
+}
