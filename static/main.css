@@ -99,11 +99,11 @@ main {
 }
 
 .socialContainer {
-  display: flex;
-  justify-content: space-between;
-  max-width: 300px;
+  display: grid;
   margin: auto;
-  width: 100%;
+  width: fit-content;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 16px;
 }
 
 .socialContainer a {
